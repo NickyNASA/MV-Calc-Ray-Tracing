@@ -1,7 +1,8 @@
 // Each #kernel tells which function to compile; you can have many kernels
 #pragma kernel CSMain
 
-// Create a RenderTexture with enableRandomWrite flag and set it with cs.SetTexture
+// Create a RenderTexture with enableRandomWrite flag and set it with
+// cs.SetTexture
 RWTexture2D<float4> Result;
 float4x4 _CameraToWorld;
 float4x4 _CameraInverseProjection;
