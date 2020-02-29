@@ -37,7 +37,6 @@ public class RayTracing : MonoBehaviour
      * Seed = 1, Radius [5, 18], SphereMax = 500, Sphere placement radius = 150
      * [-150, 100, -150]
      * [32.4, 45, 0]
-     * 
      */
     struct MeshObject{
         public Matrix4x4 localToWorldMatrix;
